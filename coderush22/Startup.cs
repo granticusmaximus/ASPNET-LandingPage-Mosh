@@ -57,7 +57,7 @@ namespace coderush22
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Mosh}/{action=Index}/{id?}");
             });
         }
     }
